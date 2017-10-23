@@ -6,6 +6,7 @@ apt update
 apt install -y autoconf bison clang coreutils toilet curl findutils git apr apr-util libffi-dev libgmp-dev libpcap-dev \
     postgresql-dev readline-dev libsqlite-dev openssl-dev libtool libxml2-dev libxslt-dev ncurses-dev pkg-config \
     postgresql-contrib wget make ruby-dev libgrpc-dev termux-tools ncurses-utils ncurses unzip zip tar postgresql termux-elf-cleaner
+
 cd $HOME
 curl -LO https://github.com/rapid7/metasploit-framework/archive/$msfvar.tar.gz
 tar -xf $HOME/$msfvar.tar.gz
